@@ -1,5 +1,25 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+Intro and Static Pages
+
+<ul>
+    <li>01:19 Install Laravel with Composer and Laravel Installer (3:49)</li>
+<li>05:08 Basic Routing and Views: URLs and Default Laravel Homepage (2:25)</li>
+<li>07:34 HTML to Blade: Homepage Design with CSS Assets (4:01)</li>
+<li>11:36 Main Menu, Blade "Extends" and "Section": Text Pages like "About", "Contact" (6:23)</li>
+    </ul>
+
+Viewing Data from Database
+
+<li>17:59 DB Structure, Laravel Migrations and .env Configuration (8:31)</li>
+<li>26:30 MVC: Model, Controller and Blade @foreach (6:56)</li>
+<li>33:26 Second Model for Posts, GET Parameters and Eloquent "Tricks" (7:17)</li>
+<li>40:43 Route Parameters and Route Model Binding (4:45)</li>
+   </ul> 
+   
+   <p> Source <a href="https://www.youtube.com/watch?v=2bz5eleBj98&t=1074s">here</a></p>
+
+<p>&nbsp;</p>
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>

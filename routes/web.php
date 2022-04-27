@@ -19,19 +19,6 @@ Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])
 Route::view( '/about', 'about')->name( 'about');
 Route::view( '/contact', 'contact')->name( 'contact');
 
-/*
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-*/
+Route::get('posts/{post}',
+    [\App\Http\Controllers\PostController::class,'show'])->name('post.show');
 
